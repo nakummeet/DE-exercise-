@@ -1,16 +1,106 @@
-# de
+🏋️‍♂️ Exercise Challenge App
 
-A new Flutter project.
+A Flutter-based fitness tracking app designed to help users stay consistent with their workout goals through 30, 60, and 90-day challenge programs.
+The app lets users track daily progress, view performance reports, and manage their basic information — all in a simple, motivating interface.
 
-## Getting Started
+🚀 Features
 
-This project is a starting point for a Flutter application.
+📅 Challenge Modes — 30-day, 60-day, and 90-day fitness challenges.
 
-A few resources to get you started if this is your first Flutter project:
+✅ Daily Progress Tracking — Mark days as complete and stay accountable.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📊 Report Section — Visual overview of your progress and achievements.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+👤 Basic Info Management — Add or edit personal details and preferences.
+
+🧭 Bottom Navigation Bar — Quick access to Home, Report, and Basic Info screens.
+
+💾 Local Data Storage — Saves progress locally for offline use.
+
+💡 Minimal UI — Clean and responsive design for all screen sizes.
+
+🧰 Tech Stack
+Layer	Technology
+Frontend	Flutter (Dart)
+State Management	Provider / setState (depending on your choice)
+Storage	SharedPreferences / Hive (if used)
+UI Design	Material Design
+Version Control	Git + GitHub
+📱 Screens Overview
+
+Home Page: Displays challenge overview and navigation options.
+
+Day Pages (Day30 / Day60 / Day90): Track and mark completed days.
+
+Report Page: Summarized view of completed days and streaks.
+
+Basic Info Page: Manage user profile and challenge preferences.
+
+🖼️ App Preview
+
+
+
+assets/screenshots/home
+<img width="444" height="888" alt="Screenshot 2025-10-12 043544" src="https://github.com/user-attachments/assets/9df77f0b-b46c-4301-8dab-01502eac7253" />
+
+assets/screenshots/report
+<img width="444" height="888" alt="Screenshot 2025-10-12 043714" src="https://github.com/user-attachments/assets/19614890-9aac-4df4-8a5e-8c25140d5fd6" />
+
+screenshots/profile
+<img width="444" height="888" alt="Screenshot 2025-10-12 043810" src="https://github.com/user-attachments/assets/73f0a226-9b19-4633-ba8d-e322c5022abc" />
+
+screenshots/exercise
+<img width="444" height="888" alt="Screenshot 2025-10-12 044048" src="https://github.com/user-attachments/assets/22b83e86-f9d0-43ea-b48b-9fd5664f5ee6" />
+
+
+
+⚙️ Installation & Setup
+
+Clone this repository
+
+git clone https://github.com/<your-username>/exercise-challenge-app.git
+cd exercise-challenge-app
+
+
+Install dependencies
+
+flutter pub get
+
+
+Run the app
+
+flutter run
+
+📂 Project Structure
+lib/
+├── main.dart                    # Entry point of the app
+│
+├── challenges/                  # Contains different challenge modules
+│   ├── challenge30.dart         # 30-day workout challenge logic & UI
+│   ├── challenge60.dart         # 60-day workout challenge logic & UI
+│   ├── challenge90.dart         # 90-day workout challenge logic & UI
+│   └── workout_detail_page.dart # Detailed view for individual workouts
+│
+├── screens/                     # App screens (main UI sections)
+│   ├── challenge_selection.dart # Page to select between 30, 60, or 90-day challenge
+│   ├── home_page.dart           # Home screen with navigation & challenge overview
+│   ├── main_scaffold.dart       # Scaffold containing bottom navigation bar
+│   ├── profile_page.dart        # Basic info / user profile screen
+│   └── report_page.dart         # Progress tracking and performance reports
+│
+├── utils/                       # Helper and configuration files
+│   └── prefs.dart               # SharedPreferences handler for saving user data
+│
+├── widgets/                     # Reusable UI components
+│   ├── challenge_button.dart    # Custom button widget for challenge actions
+│   └── exercise_tile.dart       # Tile widget displaying exercise info
+│
+└── test/                        # Unit and widget tests
+
+
+🧑‍💻 Developer
+
+Meet Nakum
+Full-stack developer focused on building clean, efficient, and user-friendly apps.
+📧 [Add your email or portfolio link here]
+🌐 GitHub Profile
