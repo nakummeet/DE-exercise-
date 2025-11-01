@@ -83,10 +83,9 @@ lib/
 │
 └── test/                        # Unit and widget tests
 
-
 🧑‍💻 Developer
 
 Meet Nakum
 Full-stack developer focused on building clean, efficient, and user-friendly apps.
-📧 [Add your email or portfolio link here]
-🌐 GitHub Profile
+📧 nakummeet3570@gmail.com
+🌐 GitHub Profile https://github.com/nakummeet
