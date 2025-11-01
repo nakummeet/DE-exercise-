@@ -38,21 +38,7 @@ Basic Info Page: Manage user profile and challenge preferences.
 
 🖼️ App Preview
 
-
-
-assets/screenshots/home
-<img width="444" height="888" alt="Screenshot 2025-10-12 043544" src="https://github.com/user-attachments/assets/9df77f0b-b46c-4301-8dab-01502eac7253" />
-
-assets/screenshots/report
-<img width="444" height="888" alt="Screenshot 2025-10-12 043714" src="https://github.com/user-attachments/assets/19614890-9aac-4df4-8a5e-8c25140d5fd6" />
-
-screenshots/profile
-<img width="444" height="888" alt="Screenshot 2025-10-12 043810" src="https://github.com/user-attachments/assets/73f0a226-9b19-4633-ba8d-e322c5022abc" />
-
-screenshots/exercise
-<img width="444" height="888" alt="Screenshot 2025-10-12 044048" src="https://github.com/user-attachments/assets/22b83e86-f9d0-43ea-b48b-9fd5664f5ee6" />
-
-
+<div align="center"> <table> <tr> <td align="center"> <img src="https://github.com/user-attachments/assets/9df77f0b-b46c-4301-8dab-01502eac7253" width="200" height="400" alt="Home Screen"/> <br><b>Home</b> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/19614890-9aac-4df4-8a5e-8c25140d5fd6" width="200" height="400" alt="Report Screen"/> <br><b>Report</b> </td> </tr> <tr> <td align="center"> <img src="https://github.com/user-attachments/assets/73f0a226-9b19-4633-ba8d-e322c5022abc" width="200" height="400" alt="Profile Screen"/> <br><b>Profile</b> </td> <td align="center"> <img src="https://github.com/user-attachments/assets/22b83e86-f9d0-43ea-b48b-9fd5664f5ee6" width="200" height="400" alt="Exercise Screen"/> <br><b>Exercise</b> </td> </tr> </table> </div>
 
 ⚙️ Installation & Setup
 
