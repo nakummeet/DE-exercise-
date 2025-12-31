@@ -1,0 +1,71 @@
+# ===============================
+# Flutter / Dart
+# ===============================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# ===============================
+# IDE / Editor
+# ===============================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+
+# ===============================
+# Android
+# ===============================
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug
+android/app/profile
+android/app/release
+android/**/GeneratedPluginRegistrant.java
+
+# ===============================
+# iOS / macOS
+# ===============================
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/.symlinks/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# ===============================
+# Web
+# ===============================
+web/.dart_tool/
+web/build/
+
+# ===============================
+# Firebase / Env
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Misc
+# ===============================
+*.class
+*.pyc
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
