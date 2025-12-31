@@ -27,18 +27,23 @@ A full-stack fitness challenge mobile application where users can take 30 / 60 /
 🧠 How the App Works (Simple Explanation)
 
 Flutter (Frontend)
+
 Handles UI, navigation, animations, and user interaction.
 
 Node.js Backend
+
 Manages login, user data, progress tracking, and security.
 
 MongoDB Database
+
 Stores user accounts and completed challenge days.
 
 JWT Authentication
+
 Protects APIs and ensures only logged-in users can access data.
 
 🛠️ Tech Stack
+
 Frontend
 
 Flutter (Dart)
@@ -58,41 +63,63 @@ MongoDB
 JWT Authentication
 
 lib/
+
 ├── main.dart
+
 ├── app.dart
+
 ├── core/
-│   └── storage/
+
+│ └── storage/
+
 ├── data/
-│   ├── models/
-│   └── services/
+
+│ ├── models/
+
+│ └── services/
+
 ├── presentation/
-│   ├── auth/
-│   ├── home/
-│   ├── exercise/
-│   ├── profile/
-│   ├── report/
-│   └── navigation/
+
+│ ├── auth/
+
+│ ├── home/
+
+│ ├── exercise/
+
+│ ├── profile/
+
+│ ├── report/
+
+│ └── navigation/
+
 ├── widgets/
 
 assets/
+
 ├── images/
+
 └── gifs/
 
-
 ⬇️ How to Download & Run the App
+
 1️⃣ Clone the repository
-git clone <your-repo-url>
+
+git clone
+
 cd deapp
 
 2️⃣ Install Flutter dependencies
+
 flutter pub get
 
 3️⃣ Run the app (Android emulator or device)
+
 flutter run
 
-
 ⚠️ Note:
+
 Flutter Web may face CORS issues due to backend security.
+
 The app is best demonstrated on Android Emulator or physical device.
 
 📦 Dependencies Used (pubspec.yaml)
@@ -100,23 +127,30 @@ The app is best demonstrated on Android Emulator or physical device.
 Below are the main dependencies and why they are used:
 
 dependencies:
-  flutter:
-    sdk: flutter
 
-  http: ^1.2.0
-  # Used for API calls (login, profile, progress)
+flutter:
 
-  shared_preferences: ^2.2.2
-  # Used to store JWT token and active challenge locally
+sdk: flutter
 
-  curved_navigation_bar: ^1.0.6
-  # Used for bottom navigation bar
+http: ^1.2.0
 
-  intl: ^0.19.0
-  # Used for date formatting (if needed in reports)
+\# Used for API calls (login, profile, progress)
 
-  cupertino_icons: ^1.0.6
-  # iOS-style icons
+shared\_preferences: ^2.2.2
+
+\# Used to store JWT token and active challenge locally
+
+curved\_navigation\_bar: ^1.0.6
+
+\# Used for bottom navigation bar
+
+intl: ^0.19.0
+
+\# Used for date formatting (if needed in reports)
+
+cupertino\_icons: ^1.0.6
+
+\# iOS-style icons
 
 🔐 Authentication Flow (Short)
 
@@ -131,13 +165,21 @@ Token is sent with every API request
 Logout clears the token
 
 🧪 Backend API Used
-Feature	Endpoint
-Login	POST /api/auth/login
-Signup	POST /api/auth/signup
-Profile	GET /api/profile
-Update Profile	PUT /api/profile
-Mark Day Complete	POST /api/progress
-Get Report	GET /api/progress/report
+
+FeatureEndpoint
+
+LoginPOST /api/auth/login
+
+SignupPOST /api/auth/signup
+
+ProfileGET /api/profile
+
+Update ProfilePUT /api/profile
+
+Mark Day CompletePOST /api/progress
+
+Get ReportGET /api/progress/report
+
 🎤 How to Explain This Project (One Line)
 
 “This is a full-stack fitness challenge app where Flutter handles the UI and Node.js manages authentication, progress tracking, and data storage.”
@@ -155,4 +197,5 @@ Graph-based analytics
 👤 Author
 
 Meet Nakum
+
 Student | Flutter & Node.js Developer
