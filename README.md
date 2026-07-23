@@ -127,7 +127,18 @@ GET /api/progress/report
 ```
 ---
 ## 🖼️ Screenshots
-<img width="464" height="852" alt="Screenshot 2025-12-27 004436" src="https://github.com/user-attachments/assets/8c4d8719-2ecc-4a40-9d09-d0ee8632c999" />
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/648c5a89-2abf-4a64-a0f8-eb375c445ebe" width="150" alt="Home Screen"/></td>
+    <td><img src="https://github.com/user-attachments/assets/0f851b64-e4a4-498e-bae8-fd63b3b6375e" width="150" alt="Product List"/></td>
+    <td><img src="https://github.com/user-attachments/assets/bc969072-225f-43ad-98d2-49e790905aba" width="150" alt="Product Details"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/253e7ab0-4d6e-4116-a993-b06b69086d7e" width="150" alt="Cart"/></td>
+    <td><img src="https://github.com/user-attachments/assets/ae228c56-0d21-427e-9fb3-431f8d2712b1" width="150" alt="Checkout"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1e59c977-5bd1-495f-930d-b164ca59220d" width="150" alt="Profile"/></td>
+  </tr>
+</table>
 
 ## 👤 Author
 
